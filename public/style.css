@@ -49,11 +49,26 @@ table {
 
 body {
   margin: 1em 1em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 
 .container {
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  padding-top: 1em;
+}
+
+section article {
+  display:flex;
+  flex-direction: column;
+  padding: 1em 1em;
+}
+section article img {
+  display: block;
+  width: 200px;
+}
+section article span {
+  text-align: center;
+  display:inline-block;
+  margin-top: 0.5em;
 }
